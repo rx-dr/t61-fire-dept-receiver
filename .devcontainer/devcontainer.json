@@ -1,0 +1,29 @@
+{
+  "name": "Jekyll",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "forwardPorts": [4000, 35729],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll server",
+      "onAutoForward": "notify"
+    },
+    "35729": {
+      "label": "LiveReload",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "bundle install",
+  "postAttachCommand": {
+    "server": "bundle exec jekyll serve --host 0.0.0.0 --livereload"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "shopify.ruby-lsp",
+        "yzhang.markdown-all-in-one",
+        "DavidAnson.vscode-markdownlint"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}

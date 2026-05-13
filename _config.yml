@@ -1,0 +1,29 @@
+title: 消防救急デジタル無線受信アプリ
+author: RX Digital Radio
+email: rx.dr@tutamail.com
+description: >-
+  消防救急デジタル無線受信アプリは、ARIB STD-T61 FDMA に準拠した日本の消防救急デジタル無線を聴取することができるアプリです。
+baseurl: "/t61-fire-dept-receiver/"
+url: "https://rx-dr.github.io"
+github_username: rx-dr
+lang: ja
+timezone: Asia/Tokyo
+
+theme: minima
+
+minima:
+  skin: auto
+  date_format: "%Y-%m-%d"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .devcontainer
+  - .github
+  - node_modules
