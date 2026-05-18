@@ -11,7 +11,7 @@ title: 聴き方
 - 260 MHz 帯が受信可能なアンテナ
 - [SDR#](https://airspy.com/download/)
 - [SDR# 用 ARIB STD-T61 FDMA デコーダプラグイン](https://unset-histfile.booth.pm/items/8345951)
-- [消防救急デジタル無線受信アプリ]({{site.baseurl}}assets/files/t61-fire-dept-receiver-1.0.0.zip)
+- [消防救急デジタル無線受信アプリ]({{site.baseurl}}assets/files/t61-fire-dept-receiver-1.0.1.zip)
 
 ## ソフトウェアのセットアップ
 
@@ -19,7 +19,7 @@ title: 聴き方
 2. 「RTL-SDR Blog V3 ドングル」を PC に接続
 3. [「SDR#」をダウンロード](https://airspy.com/download/)して適当な場所に ZIP ファイルを展開
 4. [「SDR# 用 ARIB STD-T61 FDMA デコーダプラグイン」をダウンロード](https://unset-histfile.booth.pm/items/8345951)して適当な場所に ZIP ファイルを展開
-5. [「消防救急デジタル無線受信アプリ」をダウンロード]({{site.baseurl}}assets/files/t61-fire-dept-receiver-1.0.0.zip)して適当な場所に ZIP ファイルを展開
+5. [「消防救急デジタル無線受信アプリ」をダウンロード]({{site.baseurl}}assets/files/t61-fire-dept-receiver-1.0.1.zip)して適当な場所に ZIP ファイルを展開
 6. 展開した「SDR#」の「install-rtlsdr.bat」を実行
 7. 展開した「SDR#」の「zadig.exe」を使用して「RTL-SDR Blog V3 ドングル」のドライバを「WinUSB」ドライバに置き換える
 8. 展開した「SDR#」の「Plugins」フォルダと、展開した「SDR# 用 ARIB STD-T61 FDMA デコーダプラグイン」の「Plugins」フォルダを統合
